@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: ai-log-analyzer
+Version: 0.1.0
+Summary: Open-source AI-powered log analyzer (local-first)
+Author: You
+Requires-Python: >=3.9
+License-File: LICENSE
+Dynamic: license-file

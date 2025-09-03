@@ -1,0 +1,28 @@
+2025-08-30 10:12:14 INFO Starting service user-auth on 0.0.0.0:8080 pid=12345
+2025-08-30 10:12:16 INFO Connected to postgres at 10.1.2.3
+2025-08-30 10:12:18 WARN Slow query 1250ms SELECT * FROM users WHERE id=42
+2025-08-30 10:13:02 ERROR Login failed for user id=17 ip=192.168.1.10 reason=invalid_password
+2025-08-30 10:13:03 ERROR Login failed for user id=18 ip=192.168.1.11 reason=invalid_password
+2025-08-30 10:13:05 INFO Healthcheck OK
+2025-08-30 10:14:55 CRITICAL OutOfMemoryError heap=4096MB
+Aug 31 09:12:11 gateway kernel: DROP IN=eth0 OUT= MAC=aa:bb SRC=172.16.0.2 DST=10.0.0.5 LEN=60 TOS=0x00 TTL=64 ID=54321 PROTO=TCP SPT=5555 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password
+2025-08-30 10:16:00 ERROR Login failed id=999 ip=10.0.0.9 reason=invalid_password

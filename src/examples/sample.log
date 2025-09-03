@@ -1,0 +1,107 @@
+2025-08-30 10:00:01 INFO Starting service user-auth on 0.0.0.0:8080 pid=12345
+2025-08-30 10:00:02 INFO Connected to postgres at 10.1.2.3
+2025-08-30 10:00:03 INFO Healthcheck OK
+2025-08-30 10:00:05 WARN Slow query 1200ms SELECT * FROM users WHERE id=42
+2025-08-30 10:00:07 INFO Processing request id=101
+2025-08-30 10:00:09 ERROR Login failed for user id=17 ip=192.168.1.10 reason=invalid_password
+2025-08-30 10:00:11 INFO Request completed id=101 duration=150ms
+2025-08-30 10:00:15 INFO Processing request id=102
+2025-08-30 10:00:16 ERROR Login failed for user id=18 ip=192.168.1.11 reason=invalid_password
+2025-08-30 10:00:18 INFO Request completed id=102 duration=145ms
+2025-08-30 10:00:20 WARN Disk usage at 85% on /var
+2025-08-30 10:00:22 INFO Backup started pid=23456
+2025-08-30 10:00:25 INFO Backup completed pid=23456 duration=220s
+2025-08-30 10:00:28 CRITICAL OutOfMemoryError heap=4096MB
+2025-08-30 10:00:30 INFO Service user-auth running normally
+2025-08-30 10:00:35 INFO Processing request id=103
+2025-08-30 10:00:36 INFO Request completed id=103 duration=160ms
+2025-08-30 10:00:40 WARN CPU usage at 90% core=2
+2025-08-30 10:00:42 INFO Healthcheck OK
+2025-08-30 10:00:45 ERROR Connection timeout for service payments
+2025-08-30 10:00:47 INFO Retrying connection to payments
+2025-08-30 10:00:50 INFO Connection established to payments
+2025-08-30 10:00:53 INFO Processing request id=104
+2025-08-30 10:00:55 ERROR Failed to read configuration file /etc/app/config.yaml
+2025-08-30 10:00:57 INFO Request completed id=104 duration=170ms
+2025-08-30 10:01:00 INFO Scheduled task cleanup started
+2025-08-30 10:01:02 WARN Cleanup took longer than expected 900ms
+2025-08-30 10:01:05 INFO Scheduled task cleanup completed
+2025-08-30 10:01:08 INFO Service metrics: requests=104, errors=3, warnings=2
+2025-08-30 10:00:40 WARN CPU usage at 90% core=2
+2025-08-30 10:00:40 WARN CPU usage at 90% core=2
+2025-08-30 10:00:50 INFO Connection established to payments
+2025-08-30 10:00:53 INFO Processing request id=104
+2025-08-30 10:00:55 ERROR Failed to read configuration file /etc/app/config.yaml
+2025-08-30 10:00:57 INFO Request completed id=104 duration=170ms
+2025-08-30 10:01:00 INFO Scheduled task cleanup started
+2025-08-30 10:01:02 WARN Cleanup took longer than expected 900ms
+2025-08-30 10:01:05 INFO Scheduled task cleanup completed
+2025-08-30 10:01:08 INFO Service metrics: requests=104, errors=3, warnings=2
+2025-08-30 10:01:12 INFO Connection established to database
+2025-08-30 10:01:15 INFO Processing request id=105
+2025-08-30 10:01:16 ERROR Database connection timeout for query=users
+2025-08-30 10:01:18 INFO Request completed id=105 duration=210ms
+2025-08-30 10:01:20 WARN Memory usage exceeded 75%
+2025-08-30 10:01:22 INFO Background job started job=cache-refresh
+2025-08-30 10:01:25 INFO Background job completed job=cache-refresh duration=130ms
+2025-08-30 10:01:28 INFO User login success user=alice ip=192.168.1.20
+2025-08-30 10:01:30 WARN Disk space low path=/var/log usage=82%
+2025-08-30 10:01:33 INFO User login failed user=bob reason=invalid-password
+2025-08-30 10:01:36 INFO Processing request id=106
+2025-08-30 10:01:37 INFO Request completed id=106 duration=98ms
+2025-08-30 10:01:40 ERROR Failed to send email notification user=charlie
+2025-08-30 10:01:43 INFO User logout user=alice
+2025-08-30 10:01:45 INFO Service metrics: requests=107, errors=5, warnings=4
+2025-08-30 10:01:48 WARN API response delay endpoint=/orders latency=1200ms
+2025-08-30 10:01:52 INFO Processing request id=107
+2025-08-30 10:01:55 INFO Request completed id=107 duration=180ms
+2025-08-30 10:01:58 INFO Scheduled task backup started
+2025-08-30 10:02:01 INFO Scheduled task backup completed duration=450ms
+2025-08-30 10:02:03 WARN High number of failed logins count=7
+2025-08-30 10:02:06 ERROR Unauthorized access attempt user=root ip=10.0.0.5
+2025-08-30 10:02:09 INFO User login success user=david ip=192.168.1.45
+2025-08-30 10:02:12 INFO Processing request id=108
+2025-08-30 10:02:14 INFO Request completed id=108 duration=140ms
+2025-08-30 10:02:16 WARN CPU usage at 95% core=3
+2025-08-30 10:02:19 ERROR Failed to allocate memory block size=512MB
+2025-08-30 10:02:22 INFO Garbage collection started
+2025-08-30 10:02:24 INFO Garbage collection completed freed=120MB
+2025-08-30 10:02:27 INFO Service metrics: requests=110, errors=7, warnings=6
+2025-08-30 10:02:30 INFO Connection established to cache
+2025-08-30 10:02:33 INFO Processing request id=109
+2025-08-30 10:02:35 INFO Request completed id=109 duration=160ms
+2025-08-30 10:02:37 WARN API rate limit nearing threshold user=frank
+2025-08-30 10:02:40 INFO User login success user=emma ip=192.168.1.67
+2025-08-30 10:02:43 ERROR File not found path=/data/input/orders.csv
+2025-08-30 10:02:46 INFO Scheduled task indexing started
+2025-08-30 10:02:49 INFO Scheduled task indexing completed duration=600ms
+2025-08-30 10:02:52 INFO User logout user=david
+2025-08-30 10:02:55 INFO Service shutdown initiated
+2025-08-30 10:02:14 INFO Request completed id=108 duration=140ms
+2025-08-30 10:02:16 WARN CPU usage at 95% core=3
+2025-08-30 10:02:19 ERROR Failed to allocate memory block size=512MB
+2025-08-30 10:02:22 INFO Garbage collection started
+2025-08-30 10:02:24 INFO Garbage collection completed freed=120MB
+2025-08-30 10:02:27 INFO Service metrics: requests=110, errors=7, warnings=6
+2025-08-30 10:02:30 INFO Connection established to cache
+2025-08-30 10:02:33 INFO Processing request id=109
+2025-08-30 10:02:35 INFO Request completed id=109 duration=160ms
+2025-08-30 10:02:37 WARN API rate limit nearing threshold user=frank
+2025-08-30 10:02:40 INFO User login success user=emma ip=192.168.1.67
+2025-08-30 10:02:43 ERROR File not found path=/data/input/orders.csv
+2025-08-30 10:02:46 INFO Scheduled task indexing started
+2025-08-30 10:02:49 INFO Scheduled task indexing completed duration=600ms
+2025-08-30 10:02:52 INFO User logout user=david
+2025-08-30 10:02:55 INFO Service shutdown initiated
+2025-08-30 10:02:27 INFO Service metrics: requests=110, errors=7, warnings=6
+2025-08-30 10:02:30 INFO Connection established to cache
+2025-08-30 10:02:33 INFO Processing request id=109
+2025-08-30 10:02:35 INFO Request completed id=109 duration=160ms
+2025-08-30 10:02:37 WARN API rate limit nearing threshold user=frank
+2025-08-30 10:02:40 INFO User login success user=emma ip=192.168.1.67
+2025-08-30 10:02:43 ERROR File not found path=/data/input/orders.csv
+2025-08-30 10:02:46 INFO Scheduled task indexing started
+2025-08-30 10:02:49 INFO Scheduled task indexing completed duration=600ms
+2025-08-30 10:02:52 INFO User logout user=david
+2025-08-30 10:02:55 INFO Service shutdown initiated
+

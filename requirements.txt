@@ -1,0 +1,11 @@
+typer==0.12.3
+rich==13.7.1
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+torch>=2.2.0
+transformers==4.43.4
+sentence-transformers==3.0.1
+matplotlib==3.8.4
+reportlab==4.2.0
+tensorflow==2.16.1
